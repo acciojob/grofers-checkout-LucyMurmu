@@ -12,7 +12,7 @@ const getSum = () => {
 	const row=document.createElement("tr");
 	const cell=document.createElement("td");
 
-	cell.colspan=2;
+	cell.colSpan=2;
 	cell.textContent=total;
 	row.appendChild(cell);
 	document.querySelector("table").appendChild(row);
